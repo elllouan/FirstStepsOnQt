@@ -1,0 +1,9 @@
+Keyword 'new' :
+- allocate the number of bytes needed into the heap memory (in a row) + call the constructor : returns a pointer to the address in memory
+Class* object = new Class(); (or new Class[50] for creating 50 objects)
+- must use the Keyword 'delete' afterwards (equivalent to free() method in C)
+delete object; (or delete[] object if it is a pointer to an array)
+
+
+~~~~~~~~~~~~  Qt  ~~~~~~~~~~~~~~
+Use of 'connect' function : allows us to connect a SIGNAL (emitted from a QWidget) to a SLOT (a function that tells the MOC what to do) 
